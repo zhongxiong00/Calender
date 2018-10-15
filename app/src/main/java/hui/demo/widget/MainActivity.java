@@ -3,12 +3,8 @@ package hui.demo.widget;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
-    private CalanderView mCalendarView;
+    private CalenderView mCalendarView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

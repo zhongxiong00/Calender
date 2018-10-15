@@ -12,14 +12,14 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-public class CalanderView extends RecyclerView {
+public class CalenderView extends RecyclerView {
     private CalendarAdapter mAdapter;
 
-    public CalanderView(@NonNull Context context) {
+    public CalenderView(@NonNull Context context) {
         this(context, null);
     }
 
-    public CalanderView(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public CalenderView(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         setLayoutManager(new GridLayoutManager(context, 7));
         mAdapter = new CalendarAdapter(context);
